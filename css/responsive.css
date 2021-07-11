@@ -1,0 +1,19 @@
+@media (max-width:767.98px){
+#about 
+.about-item-container .about-item:nth-child(odd){
+    text-align:left;
+}
+}
+@media (min-width:768px){
+    #about
+.about-item-container .about-item:nth-child(odd) .about-heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items:center;
+}
+ #about
+.about-item-container .about-item:nth-child(odd) .about-heading i{
+    order: 2;
+}
+}
